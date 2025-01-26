@@ -1,18 +1,16 @@
 {
   "name": "node-js",
   "version": "1.0.0",
-  "main": "script.js",
+  "main": "index.js",
   "scripts": {
-    "dev": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ankit kumar",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "nodemon": "^3.1.9"
-  },
   "dependencies": {
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
   }
 }
