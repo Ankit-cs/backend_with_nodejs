@@ -17,9 +17,9 @@ app.get("/profile/:username", function(req, res) {
     res.send(`Welcome, ${req.params.username}`);
 });
 
-app.get("/profile/:username/:age/:rno/:college/:livein", function(req, res) {
-    res.send(`Welcome, ${req.params.username} of age ${req.params.age} with rno ${req.params.rno} studyin in university ${req.params.college} live in ${req.params.livein}`);
-});
+// app.get("/profile/:username/:age/:rno/:college/:livein", function(req, res) {
+//     res.send(`Welcome, ${req.params.username} of age ${req.params.age} with rno ${req.params.rno} studyin in university ${req.params.college} live in ${req.params.livein}`);
+// });
 
 // Route for rendering the index.ejs file
 app.get("/", function(req, res) {
